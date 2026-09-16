@@ -1,0 +1,181 @@
+body{
+    max-width:900px;
+    margin:0 auto;
+    padding:10px;
+    background-color:rgb(15,15,15);
+    font-family:Arial,sans-serif;
+    color:rgb(25,25,25);
+}
+header{
+    background-color:rgb(225,225,225);
+    padding:15px 20px;
+    border-radius:8px;
+}
+header h2{
+    margin:0;
+    font-size:1.5em;
+}
+.hero{
+    background-color:rgb(225,225,225);
+    margin-top:10px;
+    padding:20px;
+    border-radius:8px;
+    display:flex;
+    gap:20px;
+}
+.hero-text{
+    width:65%;
+}
+.title{
+    position:static;
+}
+.title h1{
+    margin:0 0 5px 0;
+}
+#main-heading{
+    font-size:2rem;
+}
+.title h3{
+    margin:0;
+}
+.selftext{
+    position:relative;
+    left:3px;
+}
+.selftext h3{
+    margin:20px 0 5px 0;
+}
+.selftext p{
+    margin:0;
+    line-height:1.4;
+}
+.image{
+    width:35%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.image img{
+    width:100%;
+    max-width:220px;
+    height:auto;
+    border-radius:8px;
+}
+.lists{
+    margin-top:10px;
+}
+.ol{
+    width:49%;
+    float:left;
+    box-sizing:border-box;
+    background-color:rgb(225,225,225);
+    padding:20px;
+    border-radius:8px;
+}
+.ul{
+    width:49%;
+    float:right;
+    box-sizing:border-box;
+    background-color:rgb(225,225,225);
+    padding:20px;
+    border-radius:8px;
+}
+.lists::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.ol p,
+.ul p{
+    margin-top:0;
+    font-weight:bold;
+}
+.highlight{
+    background-color:rgb(200,200,200);
+    padding:4px;
+    border-radius:4px;
+}
+.button-section{
+    position:relative;
+    height:50px;
+    margin-top:10px;
+    background-color:rgb(225,225,225);
+    border-radius:8px;
+}
+button{
+    position:absolute;
+    top:8px;
+    left:20px;
+    padding:9px 20px;
+    background-color:rgb(30,30,30);
+    color:rgb(255,255,255);
+    border:none;
+    border-radius:6px;
+    font-size:1rem;
+}
+.schedule{
+    margin-top:10px;
+    padding:20px;
+    background-color:rgb(225,225,225);
+    border-radius:8px;
+}
+.schedule h3{
+    margin-top:0;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background-color:rgb(30,30,30);
+    color:rgb(255,255,255);
+}
+th,
+td{
+    padding:7px;
+    border:1px solid rgb(150,150,150);
+}
+.bottom{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+}
+.mood{
+    width:50%;
+    padding:20px;
+    background-color:rgb(225,225,225);
+    border-radius:8px;
+}
+.form{
+    width:50%;
+    padding:20px;
+    background-color:rgb(225,225,225);
+    border-radius:8px;
+}
+.mood h3{
+    margin-top:0;
+}
+input{
+    padding:5px;
+    border:1px solid rgb(150,150,150);
+    border-radius:5px;
+}
+input[type="submit"]{
+    background-color:rgb(30,30,30);
+    color:rgb(255,255,255);
+    border:none;
+    padding:7px 15px;
+}
+footer{
+    margin-top:10px;
+    padding:10px;
+    background-color:rgb(225,225,225);
+    text-align:center;
+    border-radius:8px;
+}
+footer p{
+    margin:0;
+}
+a{
+    color:rgb(30,30,30);
+}
